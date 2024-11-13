@@ -10,7 +10,7 @@ import ownDictionariesSelectors from '../../redux/own-dictionaries/own-dictionar
 import { addOwnDictionary } from '../../redux/own-dictionaries/own-dictionaries-operations';
 import TasksFilter from '../TasksFilter/TasksFilter';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import styles from './DictionaryForm.module.css';
 
 export default function DictionaryForm() {

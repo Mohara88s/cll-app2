@@ -10,7 +10,7 @@ import {
 import { changeCurrentDictionary } from '../../redux/own-dictionaries/own-dictionaries-actions';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import SelectedDictionaryModal from '../SelectedDictionaryModal/SelectedDictionaryModal';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import styles from './OwnDictionaries.module.css';
 
 export default function OwnDictionaries({ advancedMode = false }) {

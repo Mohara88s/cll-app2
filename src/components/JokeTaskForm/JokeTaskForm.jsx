@@ -6,7 +6,7 @@ import { changeJokeTask } from '../../redux/joke-tasks/joke-tasks-actions';
 import { addJokeTask } from '../../redux/joke-tasks/joke-tasks-operations';
 import jokeTasksSelectors from '../../redux/joke-tasks/joke-tasks-selectors';
 import { fetchJokeTasksLanguages } from '../../redux/joke-tasks/joke-tasks-operations';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import styles from './JokeTaskForm.module.css';
 
 export default function JokeTaskForm() {

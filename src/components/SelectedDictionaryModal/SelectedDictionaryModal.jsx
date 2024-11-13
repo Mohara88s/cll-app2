@@ -7,7 +7,7 @@ import TasksFilter from '../TasksFilter/TasksFilter';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import AlertComponent from '../AlertComponent/AlertComponent';
 import CopyInterfaceSymbol from '../CopyInterfaceSymbol/CopyInterfaceSymbol';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import styles from './SelectedDictionaryModal.module.css';
 import './SelectedDictionaryModal.css';
 

@@ -7,7 +7,7 @@ import {
   deleteJokeTask,
 } from '../../redux/joke-tasks/joke-tasks-operations';
 import { Form, Dropdown, Modal, Button, Spinner } from 'react-bootstrap';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import styles from './EditingJokeTaskModal.module.css';
 import './EditingJokeTaskModal.css';

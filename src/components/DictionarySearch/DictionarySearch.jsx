@@ -6,7 +6,7 @@ import {
   addOwnDictionary,
   fetchOwnDictionary,
 } from '../../redux/own-dictionaries/own-dictionaries-operations';
-import { confirm } from 'react-bootstrap-confirmation';
+import { confirm } from '../Confirmation/Confirmation';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import styles from './DictionarySearch.module.css';
 
