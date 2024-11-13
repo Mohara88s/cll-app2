@@ -7,7 +7,7 @@ import { fetchJokeTasks } from '../../redux/joke-tasks/joke-tasks-operations';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import styles from './JokesList.module.css';
 
-export default function JokesList({ passUpTask, adminMode = false }) {
+export default function JokesList({ passUpTask }) {
   const dispatch = useDispatch();
   const originalLanguage = useSelector(jokeTasksSelectors.getOriginalLanguage);
   const translationLanguage = useSelector(

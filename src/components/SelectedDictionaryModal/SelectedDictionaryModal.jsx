@@ -119,7 +119,7 @@ const SelectedDictionaryModal = ({
               {selectedDictionary.ownDictionaryName && (
                 <tbody className={styles.Table__tbody}>
                   {selectedDictionary.ownDictionaryTasks.map(
-                    ({ _id, eng, utrn, qtrn, rus }) => (
+                    ({ _id, eng, utrn, rus }) => (
                       <tr key={_id}>
                         <td className={styles.Table__td__english}>{eng}</td>
                         <td className={styles.Table__td__translation}>

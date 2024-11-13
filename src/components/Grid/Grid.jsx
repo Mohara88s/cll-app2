@@ -1,4 +1,3 @@
-import React from 'react';
 import Row from '../Row/Row';
 
 export default function Grid({ guesses, currentGuess, turn, solutionLength }) {

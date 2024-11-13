@@ -63,7 +63,7 @@ export default function RegistrationForm() {
             onChange={handleChange}
           />
           <Form.Text className="text-muted">
-            We'll never share your email and password with anyone else.
+            We&apos;ll never share your email and password with anyone else.
           </Form.Text>
         </Form.Group>
 

@@ -76,8 +76,6 @@ const NotFoundView = lazy(() =>
 	)
 );
 
-import viteLogo from "/vite.svg";
-
 function App() {
 	const dispatch = useDispatch();
 

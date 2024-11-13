@@ -96,13 +96,13 @@ export default function TextTranscriptionPage() {
           <Form.Label>Transcripted text:</Form.Label>
           <div>
             {taranscriptedArray[0] &&
-              taranscriptedArray.map(e =>
+              taranscriptedArray.map( (e, i) =>
                 e[0] === '#' ? (
-                  <span style={{ backgroundColor: 'yellow' }}>
+                  <span key={i} style={{ backgroundColor: 'yellow' }}>
                     {e.slice(1) + ' '}
                   </span>
                 ) : (
-                  <span>{e + ' '}</span>
+                  <span key={i}>{e + ' '}</span>
                 ),
               )}
           </div>

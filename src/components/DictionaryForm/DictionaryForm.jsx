@@ -63,7 +63,7 @@ export default function DictionaryForm() {
 
   return (
     <div className={styles.dictionaryForm}>
-      <h3>Let's gather words for new dictionary</h3>
+      <h3>Let&apos;s gather words for new dictionary</h3>
       <div className={styles.dictionaryForm__box}>
         <div className={styles.dictionaryForm__tasksFilterBox}>
           <TasksFilter passUpTask={addTaskToSet} />
@@ -92,7 +92,7 @@ export default function DictionaryForm() {
             </thead>
             <tbody className={styles.tasksTable__tbody}>
               {tasksSet &&
-                tasksSet.map(({ _id, eng, utrn }) => (
+                tasksSet.map(({ _id, eng }) => (
                   <tr key={_id}>
                     <td>{eng}</td>
                     <td>

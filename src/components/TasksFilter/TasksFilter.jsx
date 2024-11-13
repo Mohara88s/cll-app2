@@ -94,7 +94,7 @@ export default function TasksFilter({ passUpTask }) {
         </thead>
         {!loading && filter && (
           <tbody className={styles.Table__tbody}>
-            {filtredTasks.map(({ _id, eng, utrn, qtrn, rus }) => (
+            {filtredTasks.map(({ _id, eng, utrn, rus }) => (
               <tr key={_id}>
                 <td>{eng}</td>
                 {dropdownValue === fields[0] && <td>{rus.split('/')[0]}</td>}
