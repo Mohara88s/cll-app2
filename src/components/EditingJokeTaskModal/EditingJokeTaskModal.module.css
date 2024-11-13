@@ -1,0 +1,31 @@
+.editingJokeModal {
+  padding-top: 60px;
+}
+.editingJokeModal__header {
+  background-color: bisque;
+}
+.editingJokeModal__body {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: bisque;
+}
+.editingJokeModal__dropdown {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.editingJokeModalForm__label {
+  display: flex;
+}
+.editingJokeModalForm__jokeTitle {
+  margin-bottom: 10px;
+}
+.editingJokeModalForm__deleteButton {
+  margin-bottom: 10px;
+}
+.editingJokeModalMainButtonsBox {
+  display: flex;
+  justify-content: space-between;
+}
+.editingJokeModalMainButtonsBox__button {
+  width: 30%;
+}

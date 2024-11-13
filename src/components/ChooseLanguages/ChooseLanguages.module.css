@@ -1,0 +1,19 @@
+.languagesList {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.languagesList__item {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.languagesList__activeButton {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}

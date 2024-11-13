@@ -1,0 +1,22 @@
+.form {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 70px;
+}
+.form__link {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,37 @@
+.UserMenu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.greating {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  color: '#2A363B';
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+}
+.userAdmin {
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.userName {
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.Button {
+  margin-left: 10px;
+}
+@media screen and (min-width: 900px) {
+  .UserMenu {
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+}

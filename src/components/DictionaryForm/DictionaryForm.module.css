@@ -1,0 +1,29 @@
+.dictionaryForm__box {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.tasksTableBox__header {
+  text-align: center;
+}
+.tasksTable__tdButton {
+  width: 80px;
+}
+.tasksTable .tasksTable__tbody {
+  border-top: 0px;
+}
+.tasksTable__button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 900px) {
+  .dictionaryForm__box {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dictionaryForm__tasksFilterBox {
+    width: 70%;
+  }
+  .tasksTableBox {
+    width: 28%;
+  }
+}
